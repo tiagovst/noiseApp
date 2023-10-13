@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../static/styleResult.css">
+        <title>Resultado</title>
+    </head>
+    <body>
+        <h1>Imagem com Ruído Adicionado</h1>
+        <img src="data:image/jpeg;base64,{{ imagem_base64 }}" alt="Imagem com Ruído">
+
+        <a href="data:image/jpeg;base64,{{ imagem_base64 }}" download="imagem_com_ruido.jpg">
+            <button>Baixar Imagem com Ruído</button>
+        </a>
+        <br>
+    </body>
+</html>
